@@ -35,15 +35,15 @@ SingleLinkList.prototype = {
 			return;
         var cur = this.head
 		var position = 1;
-        while(cur.next != null){
-		
-            console.log('The element at position ' + position + ' has value ' + cur.value);
+		console.log("length is "+this.length);
+        while(cur!=null){
+			
+            console.log('The element at position ' + position + ' has value ' + cur.data);
             cur = cur.next;
             position= position+1;
         
 		}
-        // printing the last element
-        console.log('The element at position ' + position + ' has value ' + cur.value);
+        
      }
  
 	
