@@ -7,6 +7,7 @@ function SingleLinkList()
 	this.head = null;
 };
 
+
 SingleLinkList.prototype = {
 	//function to add elements to linklist
 		add:function(value){
